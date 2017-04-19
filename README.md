@@ -1,7 +1,10 @@
-# test coverage for  [express-subdomain (v1.0.5)](https://github.com/bmullan91/express-subdomain#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-subdomain.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-subdomain) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-subdomain.svg)](https://travis-ci.org/npmtest/node-npmtest-express-subdomain)
+# npmtest-express-subdomain
+
+#### test coverage for  [express-subdomain (v1.0.5)](https://github.com/bmullan91/express-subdomain#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-subdomain.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-subdomain) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-subdomain.svg)](https://travis-ci.org/npmtest/node-npmtest-express-subdomain)
+
 #### Simple and lightweight middleware to handle subdomains
 
-[![NPM](https://nodei.co/npm/express-subdomain.png?downloads=true)](https://www.npmjs.com/package/express-subdomain)
+[![NPM](https://nodei.co/npm/express-subdomain.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/express-subdomain)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-express-subdomain/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-subdomain/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-subdomain/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-subdomain/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-express-subdomain/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-express-subdomain%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-subdomain/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-express-subdomain/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-express-subdomain%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-express-subdomain/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.html](https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-express-subdomain/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-express-subdomain/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-express-subdomain/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-express-subdomain/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-express-subdomain/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-express-subdomain/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Brian Mullan",
-        "email": "bmullan91@gmail.com"
+        "name": "Brian Mullan"
     },
     "bugs": {
         "url": "https://github.com/bmullan91/express-subdomain/issues"
@@ -62,13 +70,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "bmullan91",
-            "email": "bmullan91@gmail.com"
+            "name": "bmullan91"
         }
     ],
     "name": "express-subdomain",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/bmullan91/express-subdomain.git"
