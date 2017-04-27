@@ -1,6 +1,6 @@
 # npmtest-express-subdomain
 
-#### test coverage for  [express-subdomain (v1.0.5)](https://github.com/bmullan91/express-subdomain#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-subdomain.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-subdomain) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-subdomain.svg)](https://travis-ci.org/npmtest/node-npmtest-express-subdomain)
+#### basic test coverage for  [express-subdomain (v1.0.5)](https://github.com/bmullan91/express-subdomain#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-subdomain.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-subdomain) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-subdomain.svg)](https://travis-ci.org/npmtest/node-npmtest-express-subdomain)
 
 #### Simple and lightweight middleware to handle subdomains
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-subdomain/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-subdomain/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-subdomain/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-subdomain/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-subdomain/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-subdomain/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-subdomain/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-subdomain/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
         "coverage": "./test/pre-script.sh; istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage; ./test/post-script.sh",
         "test": "./test/pre-script.sh; ./node_modules/.bin/mocha --reporter spec; ./test/post-script.sh"
     },
-    "version": "1.0.5"
+    "version": "1.0.5",
+    "bin": {}
 }
 ```
 
